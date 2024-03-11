@@ -43,7 +43,7 @@ header {
 
 .left a {
     text-decoration: none;
-    color: aliceblue;
+    color: #000;
     gap: 20px;
     position: relative;
     transition: all ease 0.5s;
@@ -57,7 +57,7 @@ header {
     content: "";
     height: 1px;
     width: 0%;
-    background-color: aliceblue;
+    background-color: #ccc;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -69,7 +69,7 @@ header {
 }
 
 .left a:hover {
-    color: rgb(148, 138, 124);
+    color: #ccc;
 }
 
 .mobile-menu {
@@ -87,7 +87,7 @@ header {
 
 .mobile-menu>a {
     text-decoration: none;
-    color: aliceblue;
+    color: #000;
     font-size: 6vw;
     text-align: center;
     padding: 0vw 4vw;
@@ -98,7 +98,7 @@ header {
     content: "";
     height: 1px;
     width: 0%;
-    background-color: aliceblue;
+    background-color: #ccc;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -110,11 +110,11 @@ header {
 }
 
 .mobile-menu>:hover {
-    color: rgb(148, 138, 124);
+    color: #ccc;
 }
 
 .mobile-menu>i {
-    color: aliceblue;
+    color: aliceblu;
     font-size: 7vw;
     margin-bottom: 5vw;
     margin-left: 80%;
@@ -148,7 +148,7 @@ header {
 }
 
 .hero-right h2 {
-    color: aliceblue;
+    color: #000;
     font-size: 3vw;
 }
 
@@ -179,7 +179,7 @@ header {
 
 .btn-1:hover {
     background-color:rgb(146, 8, 146);
-    color: aliceblue;
+    color: aliceblu;
 }
 
 @media (max-width: 600px) {
